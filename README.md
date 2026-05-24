@@ -8,22 +8,18 @@ ekimova_md_23
 Автоматизированный анализ безопасности мобильных приложений на основе сетевого трафика с использованием методов машинного обучения
 ## Требования
 *   Python 3.9+
-*   Основные библиотеки
-  - pandas
-  - numpy
-  - scikit-learn
-  - xgboost
+*   Основные библиотеки: pandas, numpy, scikit-learn, xgboost
     Для обучения модели рекомендуется 16+ ГБ оперативной памяти, так как датасет достаточно большой
 ## Структура проекта
-├── main.py                    
-├── requirements.txt
-├──.gitignore
-├── README.md
-├── Benign/                    
-├── Adware/
-├── Ransomware/
-├── Scareware/
-└── SMSmalware/
+- main.py                    
+- requirements.txt
+- .gitignore
+- README.md
+- Benign                    
+- Adware
+- Ransomware
+- Scareware
+- SMSmalware
 ## Как запустить
 1.  Клонируйте репозиторий:
 git clone https://github.com/Ekimova-Masha/6-sem-project.git
